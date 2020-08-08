@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<p>
+		<img src="welcome.jpg" height="100" width="500">
+	</p>
+	
+	<h1><u>Please fill details below</u></h1>
+	<form>
+	First name: <input type="text" name="firstname"><br>
+	Last name: <input type="text" name="lastname"><br>
+	Email address: <input type="Email" name="email" required><br>
+	Birthday: <input type="date" name="dateofbirth" minlength="8"><br>
+	Password: <input type="password" name="password" required ><br><br>
+	<b>Gender:</b><br>
+	<p><img src="male.png" height="30" width="30">
+	Male <input type="radio" name="gender"> </p>
+	<p> <img src="female.png" height="30" width="30">
+	Female <input type="radio" name="gender"></p><br>
+
+	<p>
+		<label for="gen">
+			Choose your gender
+		</label>
+		<select name="gen">
+		<option value="male" name="gen" >Male</option>
+		<option value="female" name="gen" >Female</option>
+		</select>
+
+	</p><br>
+	<p>
+	Which fruit do you like?<br>
+	<img src="mango.jpg" height="30" width="30"><input type="checkbox" name="fruit">Mango<br>
+	<img src="guava.jpg" height="30" width="30"><input type="checkbox" name="fruit">Guava<br>
+	<img src="banana.jpg" height="30" width="30"><input type="checkbox" name="fruit">Banana<br>
+	
+	<img src="falsa.jpg" height="30" width="30"><input type="checkbox" name="fruit">Falsa<br>
+</p><p>
+	<strong>Do you have Pets?</strong><br>
+	Yes <input type="radio" name="pet"><br>
+	No <input type="radio"name="pet"><br>
+	<input type="submit" value="Register">
+	<input type="reset" value="Refresh">
+	</p>
+</form>
+</body>
+</html>
